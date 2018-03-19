@@ -1,0 +1,5 @@
+isAnimate,isHuman,Gender,Age,Height,Weight,isWild,isVehicle,Category,CategoryName 
+TRUE,TRUE,female,2,85.5,12,FALSE,FALSE,child,child1
+TRUE,TRUE,female,13,156.7,45.8,FALSE,FALSE,teen,teen1
+TRUE,TRUE,female,64,161.6,77.4,FALSE,FALSE,senior,senior1
+FALSE,FALSE,male,45,145.796,1950.4,FALSE,TRUE,sedan,sedan1

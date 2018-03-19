@@ -1,0 +1,17 @@
+Methodology
+-Talk about dataset.
+-explain each attribute of an object.
+-talk about using diifrent machine learning algos on dataset.
+-explain working of each algo.
+-say that results are depicted in evaluation section.
+
+--> My approach
+	-Phase 1
+		-generating priority list.
+		-using selection sort. Talk about selection sort.
+		-talk about default priority list by comparing it with user defined priority list.
+			--give an example of what will happen if user defined priority list is incomplete but the user still wants to drive autonomously.
+	-Phase 2
+		-Use c4.5 to classify detected objects.
+		-check the priority of classifed objects in priority list(user defined priority list or default priority list which so ever is active.)
+		-eliminate the object with least priority(i.e. car will hit that object)

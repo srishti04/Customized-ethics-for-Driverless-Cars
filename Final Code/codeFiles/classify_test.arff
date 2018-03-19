@@ -1,0 +1,15 @@
+@relation classify
+
+@attribute isAnimate {TRUE}
+@attribute isHuman {TRUE}
+@attribute Gender {female}
+@attribute Age numeric
+@attribute Height numeric
+@attribute Weight numeric
+@attribute isWild {FALSE}
+@attribute isVehicle {FALSE}
+@attribute Category {child,teen,senior,sedan}
+@attribute CategoryName {child1,teen1,senior1,sedan1}
+
+@data
+TRUE,TRUE,female,5,80,10,FALSE,FALSE,child,?

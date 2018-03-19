@@ -1,0 +1,23 @@
+@relation temp
+
+@attribute isAnimate {TRUE}
+@attribute isHuman {TRUE}
+@attribute Gender {female}
+@attribute Age numeric
+@attribute Height numeric
+@attribute Weight numeric
+@attribute isWild {FALSE}
+@attribute isVehicle {FALSE}
+@attribute Categories {adult}
+@attribute CategoryName {adult1,adult2,adult3,adult4,adult5,adult6,adult7,adult8,adult9}
+
+@data
+TRUE,TRUE,female,20,163.1,58,FALSE,FALSE,adult,adult1
+TRUE,TRUE,female,24,163.2,59,FALSE,FALSE,adult,adult2
+TRUE,TRUE,female,26,163.2,60,FALSE,FALSE,adult,adult3
+TRUE,TRUE,female,36,163.3,65,FALSE,FALSE,adult,adult4
+TRUE,TRUE,female,38,163.4,64,FALSE,FALSE,adult,adult5
+TRUE,TRUE,female,42,163.1,70,FALSE,FALSE,adult,adult6
+TRUE,TRUE,female,46,163,73.4,FALSE,FALSE,adult,adult7
+TRUE,TRUE,female,53,162.3,77.1,FALSE,FALSE,adult,adult8
+TRUE,TRUE,female,59,163.4,75.6,FALSE,FALSE,adult,adult9

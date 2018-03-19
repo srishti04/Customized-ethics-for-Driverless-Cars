@@ -1,0 +1,17 @@
+@relation srissmall
+
+@attribute isAnimate {TRUE,FALSE}
+@attribute isHuman {TRUE,FALSE}
+@attribute Gender {female,male}
+@attribute Age numeric
+@attribute Height numeric
+@attribute Weight numeric
+@attribute isWild {FALSE}
+@attribute isVehicle {FALSE,TRUE}
+@attribute Category {child,teen,senior,sedan}
+
+@data
+TRUE,TRUE,female,2,85.5,12,FALSE,FALSE,child
+TRUE,TRUE,female,13,156.7,45.8,FALSE,FALSE,teen
+TRUE,TRUE,female,64,161.6,77.4,FALSE,FALSE,senior
+FALSE,FALSE,male,45,145.796,1950.4,FALSE,TRUE,sedan
